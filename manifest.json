@@ -1,0 +1,19 @@
+{
+    "author": "Plugtopus Agency",
+    "content_scripts": [{
+        "css": ["css/blocker.css"],
+        "matches": ["*://new.vk.com/*", "*://vk.com/*"]
+    }],
+    "default_locale": "ru",
+    "description": "__MSG_desc__",
+    "homepage_url": "https://plugtopus.agency",
+    "icons": {
+        "128": "icon/128.png",
+        "16": "icon/16.png",
+        "48": "icon/48.png"
+    },
+    "manifest_version": 2,
+    "name": "__MSG_name__",
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "version": "16.3.18.1"
+}
